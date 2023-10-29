@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rahulpod1 #name of my pod
+spec: #all the elements which i want in my pod
+  nodeName: aks-agentpool-39082632-vmss000003  # Not good practice to use this 
+#this is known as multi conatiner pod . Pod with Multiple COnatiner 
+  containers: #here we write info about our containers
+  - name: rahulpod1
+    image: rahulranjan72/rahulwebexto:version1 #Image from Docker Hub
+    ports:
+    - containerPort: 80 # hypen - so this is an array , One app can contain multiple port . This is optional
+  - name: rahulpod2
+    image: alpine
+    command: ['sleep','1200']  # to modify existing the cmd/EntryPOINT by dockerfile 

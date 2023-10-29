@@ -1,0 +1,6 @@
+service:
+  type: ClusterIP
+image:
+  repository: docker.io/rahulranjan72/rahulwebexto
+  pullPolicy: IfNotPresent
+  tag: version1

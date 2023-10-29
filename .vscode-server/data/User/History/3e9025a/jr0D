@@ -1,0 +1,3 @@
+FROM python
+#we are refering offical python image from Docker hub
+RUN mkdir /mycode

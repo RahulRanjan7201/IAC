@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: rahul-pv # name of pv
+spec:
+  capacity:
+    storage: 2Gi #Space i Need 
+  accessModes:
+    - ReadWriteOnce  #RWO, RWM, ROM
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: manual #my storage class
+
+  #Here the driver is hostPath
+  hostPath:
+    path: /exto/rahul-space #rahul-space should be unique
+    type: DirectoryOrCreate #if not present then create above location in the node

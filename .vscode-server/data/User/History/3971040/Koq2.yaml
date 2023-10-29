@@ -1,0 +1,6 @@
+service:
+  type: ClusterIP
+deployment:
+  imagePullSecrets:
+    name: rahul-reg-cred
+  image:  extoaksashu.azurecr.io/node-app:v1

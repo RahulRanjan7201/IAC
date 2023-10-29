@@ -1,0 +1,30 @@
+2023-10-29 04:58:48.947 [info] 
+
+
+
+
+2023-10-29 04:58:48.981 [info] Extension host agent started.
+2023-10-29 04:58:50.071 [info] [127.0.0.1][4cef7e6a][ManagementConnection] New connection established.
+2023-10-29 04:58:50.492 [info] [127.0.0.1][6982a69b][ExtensionHostConnection] New connection established.
+2023-10-29 04:58:50.497 [info] [127.0.0.1][6982a69b][ExtensionHostConnection] <31162> Launched Extension Host Process.
+2023-10-29 04:59:18.113 [info] [127.0.0.1][4cef7e6a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-29 04:59:18.126 [info] [127.0.0.1][6982a69b][ExtensionHostConnection] <31162> Extension Host Process exited with code: 0, signal: null.
+2023-10-29 04:59:18.126 [info] Cancelling previous shutdown timeout
+2023-10-29 04:59:18.126 [info] Last EH closed, waiting before shutting down
+2023-10-29 04:59:32.486 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-10-29 04:59:32.486 [info] Cancelling previous shutdown timeout
+2023-10-29 04:59:33.632 [info] [127.0.0.1][066004a1][ManagementConnection] New connection established.
+2023-10-29 04:59:34.066 [info] [127.0.0.1][e1506ea2][ExtensionHostConnection] New connection established.
+2023-10-29 04:59:34.071 [info] [127.0.0.1][e1506ea2][ExtensionHostConnection] <31395> Launched Extension Host Process.
+2023-10-29 05:04:32.487 [info] New EH opened, aborting shutdown
+2023-10-29 05:09:41.711 [info] [127.0.0.1][78fc0b5c][ManagementConnection] New connection established.
+2023-10-29 05:09:42.191 [info] [127.0.0.1][316ceb96][ExtensionHostConnection] New connection established.
+2023-10-29 05:09:42.197 [info] [127.0.0.1][316ceb96][ExtensionHostConnection] <2049> Launched Extension Host Process.
+2023-10-29 05:14:41.901 [info] [127.0.0.1][e1506ea2][ExtensionHostConnection] <31395> Extension Host Process exited with code: 0, signal: null.
+2023-10-29 11:05:33.844 [info] Getting Manifest... hashicorp.terraform
+2023-10-29 11:05:33.859 [info] Installing extension: hashicorp.terraform
+2023-10-29 11:05:35.617 [info] Extension signature is verified: hashicorp.terraform
+2023-10-29 11:05:36.411 [info] Extracted extension to /home/rahul/.vscode-server/extensions/.454b989b-bb7e-43b3-ae67-72a083509b25: hashicorp.terraform
+2023-10-29 11:05:36.419 [info] Renamed to /home/rahul/.vscode-server/extensions/hashicorp.terraform-2.28.2-linux-x64
+2023-10-29 11:05:36.421 [info] Extracting extension completed. hashicorp.terraform
+2023-10-29 11:05:36.430 [info] Extension installed successfully: hashicorp.terraform

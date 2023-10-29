@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rahulpod1 #name of my pod
+spec: #all the elements which i want in my pod
+  containers: #here we write info about our containers
+  - name: rahulpod1
+    image: rahulranjan72/rahulwebexto:version1 #Image from Docker Hub
+    ports:
+    - containerPort: 80 # hypen - so this is an array , One app can contain multiple port . This is optional
+  - name: rahulpod2
+    image: alpine

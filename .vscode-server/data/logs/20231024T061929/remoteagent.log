@@ -1,0 +1,97 @@
+2023-10-24 06:19:29.529 [info] 
+
+
+
+
+2023-10-24 06:19:29.529 [info] Extension host agent started.
+2023-10-24 06:19:29.541 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahul/.vscode-server/extensions
+2023-10-24 06:19:29.560 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/rahul/.vscode-server/extensions
+2023-10-24 06:19:30.603 [info] [127.0.0.1][dacb178d][ManagementConnection] New connection established.
+2023-10-24 06:19:31.227 [info] [127.0.0.1][63b43f87][ExtensionHostConnection] New connection established.
+2023-10-24 06:19:31.233 [info] [127.0.0.1][63b43f87][ExtensionHostConnection] <8193> Launched Extension Host Process.
+2023-10-24 06:22:14.577 [info] [127.0.0.1][dacb178d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-24 06:22:14.598 [info] [127.0.0.1][63b43f87][ExtensionHostConnection] <8193> Extension Host Process exited with code: 0, signal: null.
+2023-10-24 06:22:14.599 [info] Cancelling previous shutdown timeout
+2023-10-24 06:22:14.599 [info] Last EH closed, waiting before shutting down
+2023-10-24 06:22:30.374 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-10-24 06:22:30.375 [info] Cancelling previous shutdown timeout
+2023-10-24 06:22:31.419 [info] [127.0.0.1][61f0b810][ManagementConnection] New connection established.
+2023-10-24 06:22:31.987 [info] [127.0.0.1][91bee6b4][ExtensionHostConnection] New connection established.
+2023-10-24 06:22:31.993 [info] [127.0.0.1][91bee6b4][ExtensionHostConnection] <9698> Launched Extension Host Process.
+2023-10-24 06:27:30.375 [info] New EH opened, aborting shutdown
+2023-10-24 06:43:46.820 [info] Getting Manifest... formulahendry.docker-explorer
+2023-10-24 06:43:46.840 [info] Installing extension: formulahendry.docker-explorer
+2023-10-24 06:43:48.534 [info] Extension signature is verified: formulahendry.docker-explorer
+2023-10-24 06:43:48.932 [info] Extracted extension to /home/rahul/.vscode-server/extensions/.c380c60d-2270-42ee-9a3d-4073662fa2c5: formulahendry.docker-explorer
+2023-10-24 06:43:48.940 [info] Renamed to /home/rahul/.vscode-server/extensions/formulahendry.docker-explorer-0.1.7
+2023-10-24 06:43:48.942 [info] Extracting extension completed. formulahendry.docker-explorer
+2023-10-24 06:43:48.949 [info] Extension installed successfully: formulahendry.docker-explorer
+2023-10-24 09:12:57.833 [info] [127.0.0.1][7e29016d][ManagementConnection] New connection established.
+2023-10-24 09:12:58.305 [info] [127.0.0.1][c796bb2d][ExtensionHostConnection] New connection established.
+2023-10-24 09:12:58.312 [info] [127.0.0.1][c796bb2d][ExtensionHostConnection] <27917> Launched Extension Host Process.
+2023-10-24 09:17:58.024 [info] [127.0.0.1][91bee6b4][ExtensionHostConnection] <9698> Extension Host Process exited with code: 0, signal: null.
+2023-10-24 11:39:23.845 [info] [127.0.0.1][8179adea][ManagementConnection] New connection established.
+2023-10-24 11:39:24.453 [info] [127.0.0.1][ba9bc875][ExtensionHostConnection] New connection established.
+2023-10-24 11:39:24.461 [info] [127.0.0.1][ba9bc875][ExtensionHostConnection] <31275> Launched Extension Host Process.
+2023-10-24 11:44:16.389 [info] [127.0.0.1][ba9bc875][ExtensionHostConnection] The client has reconnected.
+2023-10-24 11:44:24.014 [info] [127.0.0.1][c796bb2d][ExtensionHostConnection] <27917> Extension Host Process exited with code: 0, signal: null.
+2023-10-24 11:44:26.910 [info] [127.0.0.1][8179adea][ManagementConnection] The client has reconnected.
+2023-10-24 11:44:28.264 [error] CodeExpectedError: Could not find pty on pty host
+    at E.L (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:28:6871)
+    at E.updateIcon (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:28:2702)
+    at Object.call (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:17:5093)
+    at h.s (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:5445)
+    at h.q (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:4936)
+    at /home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:4341
+    at c.invoke (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at g.deliver (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at t.fire (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.U (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:9:21145)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-10-24 11:44:28.266 [error] CodeExpectedError: Could not find pty on pty host
+    at E.L (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:28:6871)
+    at E.updateTitle (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:28:2652)
+    at Object.call (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:17:5093)
+    at h.s (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:5445)
+    at h.q (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:4936)
+    at /home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:4341
+    at c.invoke (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at g.deliver (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at t.fire (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.U (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:9:21145)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-10-24 11:44:28.266 [error] CodeExpectedError: Could not find pty on pty host
+    at E.L (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:28:6871)
+    at E.updateTitle (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:28:2652)
+    at Object.call (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:17:5093)
+    at h.s (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:5445)
+    at h.q (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:4936)
+    at /home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:4341
+    at c.invoke (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at g.deliver (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at t.fire (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.U (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:9:21145)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-10-24 11:44:28.410 [error] CodeExpectedError: Could not find pty on pty host
+    at E.L (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:28:6871)
+    at E.updateTitle (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:28:2652)
+    at Object.call (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:17:5093)
+    at h.s (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:5445)
+    at h.q (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:4936)
+    at /home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:4341
+    at c.invoke (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at g.deliver (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at t.fire (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.U (/home/rahul/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:9:21145)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-10-24 15:17:53.147 [info] [127.0.0.1][ba9bc875][ExtensionHostConnection] <31275> Extension Host Process exited with code: 0, signal: null.
+2023-10-24 15:17:53.153 [info] Last EH closed, waiting before shutting down
+2023-10-24 15:22:53.154 [info] Last EH closed, shutting down

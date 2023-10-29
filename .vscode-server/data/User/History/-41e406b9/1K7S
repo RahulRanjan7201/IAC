@@ -1,0 +1,8 @@
+FROM nginx
+# We are asking docker server to pull this image from Docker hub 
+LABEL name="rahul"
+LABEL email = "rahul.ranjan@exto360.com"
+# label is optional part . Label can have any information . Way to build image based on label 
+
+#copy code to image 
+COPY 

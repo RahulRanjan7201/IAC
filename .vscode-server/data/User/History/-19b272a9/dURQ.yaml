@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: rahul-node
+  name: rahul-node  #name of deployment 
+spec:
+  replicas: 1  #number of pod we want 
+  selector:
+    matchLabels:
+      app: rahul-node
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: rahul-node
+    spec:
+      imagePullSecrets: #calling Secret
+      - name: rahul-reg-cred #name of secret
+      containers:
+      - image: extoaksashu.azurecr.io/node-app:v1  #from ACR
+        name: node-app
+        ports:
+        - containerPort: 3000
+        resources: {}
+status: {}

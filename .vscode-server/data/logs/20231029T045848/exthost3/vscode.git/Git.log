@@ -1,0 +1,104 @@
+2023-10-29 05:09:46.669 [info] Log level: Info
+2023-10-29 05:09:46.669 [info] Validating found git in: "git"
+2023-10-29 05:09:46.669 [info] Using git "2.40.1" from "git"
+2023-10-29 05:09:46.669 [info] > git rev-parse --show-toplevel [38ms]
+2023-10-29 05:09:46.669 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.669 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-29 05:09:46.669 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.669 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-29 05:09:46.670 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.670 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-29 05:09:46.670 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.670 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-29 05:09:46.670 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.670 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-29 05:09:46.670 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.671 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-29 05:09:46.671 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.671 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-29 05:09:46.671 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.671 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-29 05:09:46.671 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.671 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-29 05:09:46.671 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.671 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-29 05:09:46.672 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.672 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-29 05:09:46.672 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:09:46.672 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-29 05:09:46.672 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 05:11:00.276 [info] > git rev-parse --show-toplevel [20ms]
+2023-10-29 05:11:00.276 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 07:15:35.627 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-29 07:15:35.628 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 11:04:39.520 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-29 11:04:39.520 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 11:05:37.394 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-29 11:05:37.394 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 11:06:08.410 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-29 11:06:08.410 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-29 11:08:04.148 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-29 11:08:04.154 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-10-29 11:08:04.169 [info] Open repository: /home/rahul
+2023-10-29 11:08:04.183 [info] No remotes found in the git config file.
+2023-10-29 11:08:04.184 [info] > git config --get commit.template [8ms]
+2023-10-29 11:08:04.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-29 11:08:04.221 [info] > git status -z -uall [31ms]
+2023-10-29 11:08:04.881 [info] > git config --get commit.template [5ms]
+2023-10-29 11:08:04.887 [info] No remotes found in the git config file.
+2023-10-29 11:08:04.888 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-29 11:08:04.921 [info] > git status -z -uall [28ms]
+2023-10-29 11:08:05.533 [info] > git check-ignore -v -z --stdin [5ms]
+2023-10-29 11:08:05.758 [info] > git show --textconv :terraform-activity/hello.tf [7ms]
+2023-10-29 11:08:05.760 [info] > git ls-files --stage -- /home/rahul/terraform-activity/hello.tf [2ms]
+2023-10-29 11:08:07.840 [info] No remotes found in the git config file.
+2023-10-29 11:08:07.842 [info] > git config --get commit.template [8ms]
+2023-10-29 11:08:07.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-29 11:08:07.878 [info] > git status -z -uall [30ms]
+2023-10-29 11:08:12.933 [info] No remotes found in the git config file.
+2023-10-29 11:08:12.934 [info] > git config --get commit.template [7ms]
+2023-10-29 11:08:12.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-29 11:08:12.964 [info] > git status -z -uall [25ms]
+2023-10-29 11:08:18.029 [info] No remotes found in the git config file.
+2023-10-29 11:08:18.030 [info] > git config --get commit.template [8ms]
+2023-10-29 11:08:18.031 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-29 11:08:18.066 [info] > git status -z -uall [29ms]
+2023-10-29 11:08:25.980 [info] No remotes found in the git config file.
+2023-10-29 11:08:25.981 [info] > git config --get commit.template [10ms]
+2023-10-29 11:08:25.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-29 11:08:26.011 [info] > git status -z -uall [22ms]
+2023-10-29 11:08:31.066 [info] > git config --get commit.template [8ms]
+2023-10-29 11:08:31.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-29 11:08:31.097 [info] > git status -z -uall [22ms]
+2023-10-29 11:08:31.992 [info] > git ls-files --stage -- /home/rahul/terraform-activity/hello.tf [1ms]
+2023-10-29 11:08:32.234 [info] > git show --textconv :terraform-activity/hello.tf [1ms]
+2023-10-29 11:08:42.469 [info] > git config --get commit.template [8ms]
+2023-10-29 11:08:42.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-10-29 11:08:42.498 [info] > git status -z -uall [22ms]
+2023-10-29 11:08:45.997 [info] > git ls-files --stage -- /home/rahul/terraform-activity/hello.tf [1ms]
+2023-10-29 11:08:46.239 [info] > git show --textconv :terraform-activity/hello.tf [1ms]
+2023-10-29 11:08:49.281 [info] > git config --get commit.template [9ms]
+2023-10-29 11:08:49.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-10-29 11:08:49.313 [info] > git status -z -uall [24ms]
+2023-10-29 11:08:54.375 [info] > git config --get commit.template [9ms]
+2023-10-29 11:08:54.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-10-29 11:08:54.408 [info] > git status -z -uall [24ms]
+2023-10-29 11:08:57.899 [info] > git ls-files --stage -- /home/rahul/terraform-activity/hello.tf [2ms]
+2023-10-29 11:08:58.137 [info] > git show --textconv :terraform-activity/hello.tf [1ms]
+2023-10-29 11:08:59.468 [info] > git config --get commit.template [10ms]
+2023-10-29 11:08:59.468 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-10-29 11:08:59.500 [info] > git status -z -uall [23ms]
+2023-10-29 11:09:04.558 [info] > git config --get commit.template [10ms]
+2023-10-29 11:09:04.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-10-29 11:09:04.593 [info] > git status -z -uall [24ms]
+2023-10-29 11:09:09.657 [info] > git config --get commit.template [14ms]
+2023-10-29 11:09:09.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-10-29 11:09:09.692 [info] > git status -z -uall [22ms]
+2023-10-29 11:09:09.741 [info] > git ls-files --stage -- /home/rahul/terraform-activity/hello.tf [1ms]
+2023-10-29 11:09:10.297 [info] > git show --textconv :terraform-activity/hello.tf [2ms]
+2023-10-29 11:09:14.745 [info] > git config --get commit.template [9ms]
+2023-10-29 11:09:14.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-10-29 11:09:14.776 [info] > git status -z -uall [23ms]
+2023-10-29 11:09:19.826 [info] > git config --get commit.template [8ms]
+2023-10-29 11:09:19.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-10-29 11:09:19.859 [info] > git status -z -uall [26ms]

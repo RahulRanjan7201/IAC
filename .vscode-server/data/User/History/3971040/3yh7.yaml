@@ -1,0 +1,5 @@
+service:
+  type: ClusterIP
+image:
+  repository: extoaksashu.azurecr.io
+  tag: node-app:v1

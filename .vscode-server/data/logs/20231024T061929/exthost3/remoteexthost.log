@@ -1,0 +1,15 @@
+2023-10-24 09:12:59.972 [info] Extension host with pid 27917 started
+2023-10-24 09:12:59.975 [error] Error: EEXIST: file already exists, open '/home/rahul/.vscode-server/data/User/workspaceStorage/bd210e428b6dc35759e8e46ecfb91dde/vscode.lock'
+2023-10-24 09:12:59.981 [info] Lock '/home/rahul/.vscode-server/data/User/workspaceStorage/bd210e428b6dc35759e8e46ecfb91dde/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-10-24 09:12:59.986 [info] Lock '/home/rahul/.vscode-server/data/User/workspaceStorage/bd210e428b6dc35759e8e46ecfb91dde/vscode.lock': The lock does not look stale, elapsed: 680 ms, giving up.
+2023-10-24 09:13:00.015 [info] Lock '/home/rahul/.vscode-server/data/User/workspaceStorage/bd210e428b6dc35759e8e46ecfb91dde-1/vscode.lock': Lock acquired.
+2023-10-24 09:13:00.282 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-24 09:13:00.560 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-24 09:13:00.806 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-24 09:13:00.806 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-24 09:13:01.207 [info] Eager extensions activated
+2023-10-24 09:13:01.207 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-24 09:13:01.208 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-24 11:44:23.998 [info] Extension host terminating: renderer disconnected for too long (2)
+2023-10-24 11:44:23.999 [info] Lock '/home/rahul/.vscode-server/data/User/workspaceStorage/bd210e428b6dc35759e8e46ecfb91dde-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-10-24 11:44:24.008 [info] Extension host with pid 27917 exiting with code 0

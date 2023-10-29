@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels: #all the pods by this deploy wil be have below label 
+    app: rahul-deploy1
+  name: rahul-deploy1  #name of deployment
+spec: #deployment controller spec
+  replicas: 4 #Number of Pods we want
+  selector:
+    matchLabels:
+      app: rahul-deploy1
+  strategy: {}
+  template: #to create pod use template of the pod 
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: rahul-deploy1
+    spec:  #Any Extra Features Write here , Security , N/w For Pods Sepeciation 
+      containers:
+      - image: rahulranjan72/rahulwebexto:version1  #Here image,. name ports are swappable we can put in any order
+        name: rahulwebexto
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}

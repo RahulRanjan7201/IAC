@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  generic_user: SGVsbG8=
+  generic_user_password: cmFodWw=
+  my-password: 
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: rahul-db-cred

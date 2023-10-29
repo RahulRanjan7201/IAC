@@ -1,0 +1,385 @@
+    1  who
+    2  docker version
+    3  code . 
+    4  docker version
+    5  docker stats
+    6  ls
+    7  mkdir webui-app mkdir java-code 
+    8  ls
+    9  cd webui-app/
+   10  git clone https://github.com/microsoft/project-html-website.git
+   11  cd project-html-website/
+   12  touch Dockerfile
+   13  cd ..
+   14  touch Dockerfile
+   15  docker build -t rahulwebui:v1 .
+   16  docker images
+   17  docker run --name rahulcontainer1 -d rahulwebui:v1
+   18  docker ps 
+   19  docker stats
+   20  docker inspect rahulcontainer1
+   21  docker ps
+   22  docker stop rahulcontainer1
+   23  docker rm  rahulcontainer1
+   24  docker ps
+   25  docker run --name rahulcontainer1 -d -p 7201:80  rahulwebui:v1
+   26  ping -n 1000 http://52.2.116.225:7201/
+   27  ping -n 1000 52.2.116.225:7201
+   28  kubectl version --client 
+   29  kubectl get nodes
+   30  mkdir ~/.kube
+   31  cp -v  /tmp/config ~/.kube/config
+   32  mkdir microservices
+   33  cd microservices/
+   34  mkdir moleculer-microservices
+   35  cd moleculer-microservices/
+   36  npm init -y
+   37  yum install nodejs18
+   38  sudo root
+   39  mkdir apache-server
+   40  mkdir rahul-python
+   41  cd rahul-python/
+   42  docker build -t rahulpython:v1 .
+   43  docker ps 
+   44  docker images
+   45  docker run -d -it --name rahulc1 rahulpython:v1
+   46  docker ps 
+   47  docker logs rahulpython:v1 
+   48  docker logs rahulc1
+   49   docker logs rahulc1
+   50  docker build -t rahulpython:v2 -f rahul.dockerfile
+   51  docker build -t rahulpython:v2 -f rahul.dockerfile .
+   52  docker ps
+   53  docker stop rahulc1
+   54  docker rm rahulc1
+   55  docker ps
+   56  cd ..
+   57  cd webui-app/
+   58  docker build -t webapp:v2 -f httpd.dockerfile .
+   59  ls -a project-html-website/
+   60  docker build -t webapp:v2 -f httpd.dockerfile .
+   61  docker ps
+   62  docker images
+   63  docker run --name webapp -dp 7200:80 webapp:extov1
+   64  docker run --name webapp -dp 7200:80 webapp:v2
+   65  docker ps
+   66  docker build -t webapp:v2 -f httpd.dockerfile .
+   67  docker run --name webapp -dp 7200:80 webapp:v2
+   68  docker ps 
+   69  docker stop e783476047bb
+   70  docker stop 830bd20a06ef
+   71  docker run --name rahulwebapp -dp 7200:80 webapp:v2
+   72  docker ps
+   73  docker stop webapp:v2
+   74  docker stop a7c709048407
+   75  docker rm a7c709048407
+   76  docker images 
+   77  docker images | grep webapp
+   78  docker tag webapp:v2 docker.io/rahulranjan72/rahulwebexto:version1
+   79  docker login 
+   80  docker push docker.io/rahulranjan72/rahulwebexto:version1
+   81  docker tag webapp:v2 extoaksashu.azurecr.io/rahulwebui:appv1
+   82  docker login extoaksashu.azurecr.io
+   83  docker push extoaksashu.azurecr.io/rahulwebui:appv1
+   84  docker images 
+   85  docker logout extoaksashu.azurecr.io
+   86  kubectl version --client -o yaml
+   87  ls ~/.kube
+   88  node 
+   89  kubectl get nodes
+   90  cd ..
+   91  mkdir k8s-resource-design
+   92  cd k8s-resource-design/
+   93  cd .. 
+   94  cd k8s-resource-design/
+   95  ls
+   96  kubectl  create -f rahulpod1.yaml 
+   97  kubectl get pods 
+   98  kubectl get pod -o wide 
+   99  kubectl get pod rahulpod1  -o wide 
+  100  kubectl get pod rahulpod1  -
+  101  kubectl get pod rahulpod1  
+  102  kubectl get pods
+  103  kubectl logs rahulpod1
+  104  kubectl exec -it rahulpod1 -- bash
+  105  kubectl replace -f rahulpod1.yaml --force
+  106  kubectl get pods
+  107  kubectl describe pod rahulpod1
+  108  kubectl get nodes
+  109  kubectl delete po rahulpod1
+  110  kubectl get po
+  111  kubectl api-resources
+  112  kubectl create deployment rahul-deploy1 --image=rahulranjan72/rahulwebexto:version1 --port --dry-run=client -o yaml 
+  113  kubectl create deployment rahul-deploy1 --image=rahulranjan72/rahulwebexto:version1 --port --dry-run client -o yaml 
+  114  kubectl create deployment rahul-deploy1 --image=rahulranjan72/rahulwebexto:version1 --port 80  --dry-run=client -o yaml 
+  115  kubectl create deployment rahul-deploy1 --image=rahulranjan72/rahulwebexto:version1 --port 80  --dry-run=client -o yaml > deploy1.yaml
+  116  kubectl create -f deploy1.yaml 
+  117  kubectl get pods
+  118  kubectl get deployment
+  119  kubectl get po - o 
+  120  kubectl get po -o wide
+  121  kubectl get pods 
+  122  kubectl delete po rahul-deploy1-69bd7ffcc8-qhf7j
+  123  kubectl get pods 
+  124  kubectl apply -f deploy1.yaml 
+  125  kubectl get deployments 
+  126  kubectl scale deployment rahul-deploy1 --replicas=4
+  127  kubectl get deployments 
+  128  kubectl scale deployment rahul-deploy1 --replicas=6
+  129  kubectl get deployments 
+  130  kubectl create namespace rahul-project 
+  131  kubectl get ns 
+  132  kubectl config set-context --current --namespace rahul-project   
+  133  kubectl create -f deploy1.yaml 
+  134  kubectl get deploy
+  135  mkdir mynode-mongo-app
+  136  cd mynode-mongo-app/
+  137  kubectl   create  deploy rahul-node  --image=extoaksashu.azurecr.io/node-app:v1   --port 3000 --dry-run=client -o yaml  >node_deploy.yaml
+  138  kubectl create -f node_deploy.yaml 
+  139  kubectl get deploy 
+  140  kubectl describe po rahul-node
+  141  kubectl get events
+  142  histroy 
+  143  history
+  144  kubectl create secret docker-registry rahul-reg-cred extoaksashu.azurecr.io --docker-username extoaksashu  --docker-password="NRwjXeLhLbmBBQEzjeM0hWJKQIz53Xxqg6ji3RlzWl+ACRCev89b"  --dry-run=client -o yaml >az_secret.yaml
+  145  kubectl  create secret  docker-registry  rahul-reg-cred --docker-server extoaksashu.azurecr.io        --docker-username   extoaksashu   --docker-password="NRwjXeLhLbmBBQEzjeM0hWJKQIz53Xxqg6ji3RlzWl+ACRCev89b"  --dry-run=client -o yaml >az_secret.yaml
+  146  kubectl create -f az_secret.yaml 
+  147  kubectl get secrets
+  148  kubectl apply -f node_deploy.yaml 
+  149  kubectl get po
+  150  kubectl get deploy 
+  151  kubectl get secret
+  152  kubectl get deployments.apps
+  153  kubectl get pos
+  154  kubectl get po
+  155  kubectl expose deployment rahul-node --type LoadBalancer --port 80 --target-port 3000
+  156  kubectl expose deployment rahul-node --type LoadBalancer --port 80 --target-port 3000 --name rahul-node-lb --dry-run=client -o yaml > node_lb.yaml
+  157  kubectl create -f node_
+  158  kubectl create -f node_lb.yaml 
+  159  kubectl get svc 
+  160  kubectl get po 
+  161  kubectl log rahul-node-5bcc59bb46-99zl4
+  162  kubectl logs rahul-node-5bcc59bb46-99zl4
+  163  kubectl create deployment rahul-mongo --image=mongo --port 27017 --dry-run=client -o yaml >mongo_db.yaml
+  164  cls
+  165  kubertcl create secret generic rahul-db-credentials --from-literal myuser-rahul --from-literal my-passwor="ello" --dry-run=client -o yaml >db_cred.yaml
+  166  kubectl create secret generic rahul-db-credentials --from-literal myuser-rahul --from-literal my-passwor="ello" --dry-run=client -o yaml >db_cred.yaml
+  167  kubectl  create  secret generic  rahul-db-cred --from-literal my-user=rahul  --from-literal my-password="Hello" --dry-run=client -o yaml >db_cred.yaml
+  168  kubectl create -f db_cred.yaml 
+  169  kubectl get secret
+  170  kubectl create -f mongo_db.yaml 
+  171  kubect get deploy 
+  172  kubectl get deploy 
+  173  kubectl get po
+  174  kubectl logs rahul-node-5bcc59bb46-99zl4
+  175  kubectl expose deployment rahul-mongo --type ClusterIP --port 27017 --name rahul-mongo-lb --dry-run=client -o yaml > mongo_svc.yaml
+  176  kubectl create -f mongo_svc.yaml 
+  177  kubetcl get svc
+  178  kubectl get svc
+  179  kubectl get ep 
+  180  kubectl apply -f node_deploy.yaml 
+  181  kubectl logs rahul-node-5bcc59bb46-99zl4
+  182  kubetcl get svc
+  183  kubectl get svc
+  184  kubectl get po 
+  185  kubectl exec rahul-node-5bcc59bb46-99zl4 -- env
+  186  kubectl exec rahul-mongo-5cc84bdfc8-wnt94 -- env
+  187  kubectl replace -f node_deploy.yaml --force
+  188  kubectl get deploy 
+  189  kubectl get po 
+  190  kubectl get po
+  191  kubectl get deploy
+  192  kubectl autoscale rahul-node --min 2 --max 20 --cpu-percent 70 --dry-run=client -o yaml > hpa.yam
+  193  kubectl autoscale rahul-node --min 2 --max 20 --cpu-percent 70 --dry-run=client -o yaml > hpa.yaml
+  194  kubectl autoscale deployment  rahul-node --min 2 --max 20 --cpu-percent 70 --dry-run=client -o yaml > hpa.yaml
+  195  kubectl create -f hpa.yaml 
+  196  kubectl replace -f node_deploy.yaml --force
+  197  kubectl autoscale deployment  rahul-node --min 2 --max 20 --cpu-percent 70 --dry-run=client -o yaml > hpa.yaml
+  198  kubectl replace -f hpa.yaml 
+  199  kubectl get hpa
+  200  ls
+  201  kubectl get no
+  202  kubectl get ns
+  203  Kubectl config get-contexts
+  204  kubectl config get-contexts
+  205  kubectl get po -n default
+  206  cat ~/.kubeconfig
+  207  cat ~/.kube/config
+  208  kubecl config view
+  209  kubectl config view 
+  210  kubectl run pod1 --image=nginx
+  211  kubectl get po
+  212  kubectl get po -o wide
+  213  kubectl run -it --rm --image=alpine --command sh 
+  214  cd k8s-resource-design/
+  215  kubectl create -f deploy1.yaml 
+  216  kubectl delete -f deploy1.yaml 
+  217  kubectl create -f deploy1.yaml 
+  218  kubectl get po 
+  219  kubectl delete pod1
+  220  kubectl delete -f pod1
+  221  kubectl delete pod pod1
+  222  kubectl get po 
+  223  kubectl get deploy 
+  224  kubectl scale deploy rahul-deploy1 --replicas= 3
+  225  kubectl scale deploy rahul-deploy1 --replicas=3
+  226  kubetcl get deploy
+  227  kubectl get deploy
+  228  kubectl create services
+  229  kubectl create service
+  230  kubectl crete service clusterip rahul-web-internal-lb --tcp 1234:80 --dry-run=client -o yaml >web_lb.yaml
+  231  kubectl create service clusterip rahul-web-internal-lb --tcp 1234:80 --dry-run=client -o yaml >web_lb.yaml
+  232  kubectl get service
+  233  kubectl create -f web_lb.yaml 
+  234  kubectl get service
+  235  kubectl get po --show-labels
+  236  kubectl get ep 
+  237  kubectl replace -f web_lb.yaml 
+  238  kubectl get svc
+  239  kubectl get ep
+  240  kubectl delete all --all 
+  241  kubectl create -f deploy1.yaml 
+  242  kubectl get deploy 
+  243  kubectl get po 
+  244  kubectl apply -f deploy1.yaml 
+  245  kubectl get po 
+  246  kubectl expose deployment rahul-deploy1 --type ClusterIP --port 80 --name rahul-web-internal-lb --dry-run=client -o yaml > auto_web_lb.yaml
+  247  kubectl  create -f auto_web_lb.yaml 
+  248  kubectl get ep 
+  249  kubectl scale deployment rahul-deploy1 --replicas 9
+  250  kubectl get ep 
+  251  kuebctl get svc
+  252  kubectl get svc
+  253  kubectl delete svc rahul-web-internal-lb
+  254  kubectl expose deployment rahul-deploy1 --type LoadBalancer --port 80 --name rahul-web-extenal-lb --dry-run=client -o yaml > auto_web_external_lb.yaml
+  255  kubect create -f auto_web_external_lb.yaml 
+  256  kubectl create -f auto_web_external_lb.yaml 
+  257  kubectl get svc
+  258  kubectl delete svc rahul-web-extenal-lb
+  259  ~/.bashrc
+  260  vim ~/.bashrc
+  261  source ~/.bashrc 
+  262  kubectl delete all -all 
+  263  kubectl delete all --all
+  264  kubectl get secret
+  265  kubectl get po 
+  266  kubectl get po -A
+  267  kubectl get all 
+  268  kubect apply -f mynode-mongo-app/
+  269  kubectl apply -f mynode-mongo-app/
+  270  kubectl delete  -f mynode-mongo-app/
+  271  helm version 
+  272  kubectl get ns
+  273  helm repo ls 
+  274  helm repo ls
+  275  kubectl get ns
+  276  kubectl get context
+  277  helm repo add rahul-repo https://charts.bitnami.com/bitnami
+  278  kubectl get ns
+  279  helm repo ls 
+  280  helm repo 
+  281  helm search repo ingress
+  282  helm repo add rahul-monitor https://prometheus-community.github.io/helm-charts
+  283  helm search repo ingress
+  284  helm search repo nginx
+  285  helm repo ls 
+  286  kubectl get all 
+  287  helm install rahul-app rahul-repo/nginx
+  288  kubectl get svc --namespace rahul-project -w rahul-app-nginx
+  289  kubectl get pods
+  290  helm ls
+  291  kubectl get deploy 
+  292  kubectl get svc 
+  293  kubectl get svc  rahul-app-nginx -o yaml
+  294  helm ls
+  295  helm uninstall rahul-app
+  296  mkdir helm-explore
+  297  cd helm-explore/
+  298  ls
+  299  helm create rahul-webapp
+  300  cd rahul-webapp/
+  301  ls
+  302  cd templates/
+  303  ls
+  304  cd ..
+  305  ls
+  306  cd ..
+  307  mkdir modify-helm-charts
+  308  cd modify-helm-charts/
+  309  helm install rahul-app rahul-repo --vales Values.yaml
+  310  helm install rahul-app rahul-repo --vaules Values.yaml
+  311  helm install rahul-app rahul-repo --values Vales.yaml
+  312  helm install rahul-app rahul-repo/nginx --values Vales.yaml
+  313  helm ls 
+  314  helm install rahul-app rahul-repo/nginx --values Values.yaml
+  315  helm ls 
+  316  helm install rahul-app rahul-repo/nginx --values Values.yaml
+  317  helm install rahul-app1 rahul-repo/nginx --values Values.yaml
+  318  helm install rahul-app2 rahul-repo/nginx --values Values.yaml
+  319  helm ls
+  320  helm  upgrade  rahul-app rahul-repo/nginx --values Values.yaml
+  321  helm ls 
+  322  helm  upgrade  rahul-app rahul-repo/nginx --values Values.yaml
+  323  helm ls 
+  324  kubectl get svc
+  325  kubectl get po
+  326  kubectl describe  po rahul-app-nginx-fb594b4b9-ft8pt
+  327  helm  upgrade  rahul-app rahul-repo/nginx --values Values.yaml
+  328  kubectl get svc
+  329  kubectl get svc -o yaml 
+  330  helm  upgrade  rahul-app rahul-repo/nginx --values Values.yaml
+  331  kubectl get svc -o yaml 
+  332  kubectl get svc
+  333  kubectl get po
+  334  kubectl describe po rahul-app-nginx-76f96c6479-59924 
+  335  kubectl get svc -o yaml 
+  336  helm  upgrade  rahul-app rahul-repo/nginx --values Values.yaml
+  337  kubectl get po
+  338  helm uninstall 
+  339  helm uninstall
+  340  helm uninstall all
+  341  helm uninstall --all
+  342  helm unistall 
+  343  kubectl delete all all,secret --all
+  344  kubectl delete  all,secret --all
+  345  cd ..
+  346  cd mysql/
+  347   kubectl  create  secret generic  rahul-db-cred --from-literal my-user=rahul  --from-literal my-passwor
+  348  d="Hello" --dry-run=client -o yaml 
+  349   kubectl  create  secret generic  rahul-db-cred --from-literal my-user=rahul  --from-literal my-password="rahul123" generic_user="newuser" generic_user_password="newpassword" --dry-run=client -o > rahul-db-cred
+  350   kubectl  create  secret generic  rahul-db-cred --from-literal my-user=rahul  --from-literal my-password="rahul123" generic_user="newuser" generic_user_password="newpassword" --dry-run=client -o yaml > rahul-db-cred
+  351   kubectl  create  secret generic  rahul-db-cred --from-literal my-user=rahul  --from-literal my-password="rahul123" generic_user="newuser" generic_user_password="newpassword" --dry-run=client -o yaml > db_cred.yaml
+  352   kubectl  create  secret generic  rahul-db-cred   --from-literal my-password="rahul123" --from-literal  generic_user="newuser" --from-literal  generic_user_password="newpassword" --dry-run=client -o yaml > db_cred.yaml
+  353  cd ..
+  354  kubectl apply -f mysql/
+  355  kubectl get pods
+  356  kubectl get  svc
+  357  cd mysql/
+  358  kubectl create secret generic rahul_db_cred --from-env-file cred.env
+  359  kubectl create secret generic rahul_db_cred --from-env-file cred.env --dry-run=client -o yaml > db_secret.yaml
+  360  kubectl apply -f mysql/
+  361  cd ..
+  362  kubectl apply -f mysql/
+  363  kubectl delete  all,secret --all
+  364  kubectl apply -f mysql/
+  365  cd mongodb/
+  366  kubectl create secret generic rahul_db_cred --from-env-file cred.env --dry-run=client -o yaml > db_secret.yaml
+  367  kubectl delete  all,secret --all
+  368  kubectl  expose deployment task-mongo --port 27017 --name db-lb --dry-run=client -o yaml > mongodbsvc.yaml
+  369  kubectl create -f mongo_deploy.yaml 
+  370  kubectl create -f db_secret.yaml 
+  371  kubectl create -f mongo_deploy.yaml 
+  372  kubectl  expose deployment task-mongo --port 27017 --name db-lb --dry-run=client -o yaml > mongodbsvc.yaml
+  373  kubectl get pods
+  374  kubectl exec -it task-mongo-7787bbc46b-5d6p2 -- bash
+  375  kubectl exec -i task-mongo-7787bbc46b-5d6p2 -- bash
+  376  kubectl  expose deployment task-mongo --port 27017 --name db-lb --dry-run=client -o yaml > mongodbsvc.yaml
+  377  kubectl create -f mongodbsvc.yaml 
+  378  cd ..
+  379  kubectl apply -f mongodb/
+  380  kubectl exec -i task-mongo-7787bbc46b-5d6p2 -- bash
+  381  kubectl delete all, secret --all
+  382  kubectl delete all,secret --all
+  383  kubectl apply -f mongodb/
+  384  kubectl get ep
+  385  history > 4thday.txt

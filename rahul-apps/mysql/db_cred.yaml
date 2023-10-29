@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  generic_user: bmV3dXNlcg==
+  generic_user_password: bmV3cGFzc3dvcmQ=
+  my-password: cmFodWwxMjM=
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: ranjan-db-cred

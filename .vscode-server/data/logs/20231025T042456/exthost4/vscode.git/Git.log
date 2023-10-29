@@ -1,0 +1,50 @@
+2023-10-25 08:53:27.341 [info] Log level: Info
+2023-10-25 08:53:27.341 [info] Validating found git in: "git"
+2023-10-25 08:53:27.341 [info] Using git "2.40.1" from "git"
+2023-10-25 08:53:27.341 [info] > git rev-parse --show-toplevel [36ms]
+2023-10-25 08:53:27.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 08:53:27.341 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-25 08:53:27.341 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-10-25 08:53:27.341 [info] Open repository: /home/rahul/rahul-apps/webui-app/project-html-website
+2023-10-25 08:53:27.341 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-25 08:53:27.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 08:53:27.341 [info] > git config --get commit.template [7ms]
+2023-10-25 08:53:27.341 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-25 08:53:27.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 08:53:27.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-25 08:53:27.341 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-25 08:53:27.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 08:53:27.341 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-25 08:53:27.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 08:53:27.341 [info] > git status -z -uall [16ms]
+2023-10-25 08:53:27.341 [info] > git rev-parse --show-toplevel [19ms]
+2023-10-25 08:53:27.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 08:53:27.341 [info] > git config --get commit.template [12ms]
+2023-10-25 08:53:27.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-25 08:53:27.341 [info] > git status -z -uall [14ms]
+2023-10-25 08:53:27.341 [info] > git rev-parse --show-toplevel [9ms]
+2023-10-25 08:53:27.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 08:53:27.341 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-25 08:53:27.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 08:53:27.341 [info] > git rev-parse --show-toplevel [45ms]
+2023-10-25 08:53:27.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 08:53:27.341 [info] > git rev-parse --show-toplevel [9ms]
+2023-10-25 08:53:27.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 08:53:27.341 [info] > git show --textconv :index.html [21ms]
+2023-10-25 08:53:27.341 [info] > git ls-files --stage -- /home/rahul/rahul-apps/webui-app/project-html-website/index.html [9ms]
+2023-10-25 08:53:27.341 [info] > git check-ignore -v -z --stdin [10ms]
+2023-10-25 08:53:27.341 [info] > git cat-file -s 0d303bbc022d97ec9b9ffce846957769b64f2b90 [9ms]
+2023-10-25 09:22:45.342 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-25 09:22:45.342 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 09:23:18.743 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-25 09:23:18.744 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 09:23:27.196 [info] > git rev-parse --show-toplevel [16ms]
+2023-10-25 09:23:27.196 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 09:23:28.355 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-25 09:23:28.355 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 11:43:10.866 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-25 11:43:10.869 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 11:43:26.975 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-25 11:43:26.975 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 11:43:29.446 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-25 11:43:29.446 [info] fatal: not a git repository (or any of the parent directories): .git

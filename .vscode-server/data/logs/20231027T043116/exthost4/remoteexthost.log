@@ -1,0 +1,25 @@
+2023-10-27 11:11:34.917 [info] Extension host with pid 17551 started
+2023-10-27 11:11:34.921 [error] Error: EEXIST: file already exists, open '/home/rahul/.vscode-server/data/User/workspaceStorage/a7d4fcbeb173e8ad08faa0522097a07a/vscode.lock'
+2023-10-27 11:11:34.927 [info] Lock '/home/rahul/.vscode-server/data/User/workspaceStorage/a7d4fcbeb173e8ad08faa0522097a07a/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-10-27 11:11:34.931 [info] Lock '/home/rahul/.vscode-server/data/User/workspaceStorage/a7d4fcbeb173e8ad08faa0522097a07a/vscode.lock': The lock does not look stale, elapsed: 939 ms, giving up.
+2023-10-27 11:11:34.943 [info] Lock '/home/rahul/.vscode-server/data/User/workspaceStorage/a7d4fcbeb173e8ad08faa0522097a07a-1/vscode.lock': Lock acquired.
+2023-10-27 11:11:35.276 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-27 11:11:35.277 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2023-10-27 11:11:35.736 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-27 11:11:36.012 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-27 11:11:36.013 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-27 11:11:36.167 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-10-27 11:11:36.170 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-10-27 11:11:36.425 [info] Eager extensions activated
+2023-10-27 11:11:36.425 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-27 11:11:36.426 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-27 11:11:36.627 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-10-27 11:11:36.654 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-10-27 11:11:36.706 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-10-27 11:11:36.733 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-10-27 11:11:36.741 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-10-27 11:11:49.334 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-10-27 12:51:12.400 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-10-27 16:39:09.865 [info] Extension host terminating: renderer disconnected for too long (1)
+2023-10-27 16:39:09.866 [info] Lock '/home/rahul/.vscode-server/data/User/workspaceStorage/a7d4fcbeb173e8ad08faa0522097a07a-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-10-27 16:39:09.880 [info] Extension host with pid 17551 exiting with code 0

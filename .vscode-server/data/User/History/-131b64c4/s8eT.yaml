@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: rahul-deploy1
+  name: rahul-deploy1  #name of deployment
+spec:
+  replicas: 1 #Number of Pods we want
+  selector:
+    matchLabels:
+      app: rahul-deploy1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: rahul-deploy1
+    spec:
+      containers:
+      - image: rahulranjan72/rahulwebexto:version1
+        name: rahulwebexto
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}

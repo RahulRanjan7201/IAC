@@ -1,0 +1,48 @@
+2023-10-25 04:24:56.418 [info] 
+
+
+
+
+2023-10-25 04:24:56.451 [info] Extension host agent started.
+2023-10-25 04:24:57.643 [info] [127.0.0.1][bd2bb191][ManagementConnection] New connection established.
+2023-10-25 04:24:58.267 [info] [127.0.0.1][b110e2b6][ExtensionHostConnection] New connection established.
+2023-10-25 04:24:58.273 [info] [127.0.0.1][b110e2b6][ExtensionHostConnection] <29202> Launched Extension Host Process.
+2023-10-25 04:29:56.452 [info] New EH opened, aborting shutdown
+2023-10-25 04:42:16.942 [info] [127.0.0.1][ca83db39][ManagementConnection] New connection established.
+2023-10-25 04:42:17.390 [info] [127.0.0.1][b90a660d][ExtensionHostConnection] New connection established.
+2023-10-25 04:42:17.395 [info] [127.0.0.1][b90a660d][ExtensionHostConnection] <32382> Launched Extension Host Process.
+2023-10-25 04:47:17.165 [info] [127.0.0.1][b110e2b6][ExtensionHostConnection] <29202> Extension Host Process exited with code: 0, signal: null.
+2023-10-25 04:52:19.935 [info] Getting Manifest... formulahendry.docker-extension-pack
+2023-10-25 04:52:19.963 [info] Installing extension: formulahendry.docker-extension-pack
+2023-10-25 04:52:20.068 [info] Getting Manifest... formulahendry.docker-explorer
+2023-10-25 04:52:21.456 [info] Extension signature is verified: formulahendry.docker-extension-pack
+2023-10-25 04:52:21.477 [info] Extracted extension to /home/rahul/.vscode-server/extensions/.24fd0d2a-5d2a-449f-b6ae-c604c3157755: formulahendry.docker-extension-pack
+2023-10-25 04:52:21.482 [info] Renamed to /home/rahul/.vscode-server/extensions/formulahendry.docker-extension-pack-0.0.1
+2023-10-25 04:52:21.484 [info] Extracting extension completed. formulahendry.docker-extension-pack
+2023-10-25 04:52:21.490 [info] Extension installed successfully: formulahendry.docker-extension-pack
+2023-10-25 04:52:50.620 [info] Getting Manifest... delgee.sld-docker-builder
+2023-10-25 04:52:50.643 [info] Installing extension: delgee.sld-docker-builder
+2023-10-25 04:52:51.826 [info] Extension signature is verified: delgee.sld-docker-builder
+2023-10-25 04:52:51.845 [info] Extracted extension to /home/rahul/.vscode-server/extensions/.4eacd6cd-ff9c-476a-8b7c-3c7deb80e9fb: delgee.sld-docker-builder
+2023-10-25 04:52:51.852 [info] Renamed to /home/rahul/.vscode-server/extensions/delgee.sld-docker-builder-0.0.1
+2023-10-25 04:52:51.854 [info] Extracting extension completed. delgee.sld-docker-builder
+2023-10-25 04:52:51.860 [info] Extension installed successfully: delgee.sld-docker-builder
+2023-10-25 05:42:22.630 [info] [127.0.0.1][b90a660d][ExtensionHostConnection] The client has reconnected.
+2023-10-25 05:57:24.486 [info] [127.0.0.1][d87b5326][ManagementConnection] New connection established.
+2023-10-25 05:57:24.958 [info] [127.0.0.1][1f19fac1][ExtensionHostConnection] New connection established.
+2023-10-25 05:57:24.965 [info] [127.0.0.1][1f19fac1][ExtensionHostConnection] <3655> Launched Extension Host Process.
+2023-10-25 06:02:24.728 [info] [127.0.0.1][b90a660d][ExtensionHostConnection] <32382> Extension Host Process exited with code: 0, signal: null.
+2023-10-25 08:53:19.927 [info] [127.0.0.1][a26627c2][ManagementConnection] New connection established.
+2023-10-25 08:53:20.433 [info] [127.0.0.1][bb35bdb7][ExtensionHostConnection] New connection established.
+2023-10-25 08:53:20.447 [info] [127.0.0.1][bb35bdb7][ExtensionHostConnection] <2485> Launched Extension Host Process.
+2023-10-25 08:58:20.021 [info] [127.0.0.1][1f19fac1][ExtensionHostConnection] <3655> Extension Host Process exited with code: 0, signal: null.
+2023-10-25 09:23:15.910 [info] Getting Manifest... redhat.vscode-yaml
+2023-10-25 09:23:15.930 [info] Installing extension: redhat.vscode-yaml
+2023-10-25 09:23:17.865 [info] Extension signature is verified: redhat.vscode-yaml
+2023-10-25 09:23:18.040 [info] Extracted extension to /home/rahul/.vscode-server/extensions/.15a3d1ab-418a-4010-a493-91a7317264ae: redhat.vscode-yaml
+2023-10-25 09:23:18.047 [info] Renamed to /home/rahul/.vscode-server/extensions/redhat.vscode-yaml-1.14.0
+2023-10-25 09:23:18.049 [info] Extracting extension completed. redhat.vscode-yaml
+2023-10-25 09:23:18.057 [info] Extension installed successfully: redhat.vscode-yaml
+2023-10-25 16:21:26.213 [info] [127.0.0.1][bb35bdb7][ExtensionHostConnection] <2485> Extension Host Process exited with code: 0, signal: null.
+2023-10-25 16:21:26.214 [info] Last EH closed, waiting before shutting down
+2023-10-25 16:26:26.215 [info] Last EH closed, shutting down

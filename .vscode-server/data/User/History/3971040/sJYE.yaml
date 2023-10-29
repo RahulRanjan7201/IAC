@@ -1,0 +1,7 @@
+service:
+  type: LoadBalancer
+replicaCount: 3
+image:
+  repository: docker.io/rahulranjan72/rahulwebexto
+  pullPolicy: IfNotPresent
+  tag: version1

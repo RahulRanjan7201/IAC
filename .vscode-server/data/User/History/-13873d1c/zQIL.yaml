@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: rahul-mysql
+  name: rahul-mysql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rahul-mysql
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: rahul-mysql
+    spec:
+      containers:
+      - image: mysql
+        name: mysql
+        ports:
+        - containerPort: 27017
+        env: #to create/pass ENV variable info 
+        - name: MYSQL_ROOT_PASSWORD
+          # value: rahul #this user i want to create in Mysql DB
+          valueFrom:
+            secretKeyRef:
+              name: rahul_db_cred #name of secret 
+              key: MYSQL_ROOT_PASSWORD #key which store the password info
+        - name: MYSQL_USER
+          valueFrom:
+            secretKeyRef:
+              name: rahul_db_cred #name of secret 
+              key: MYSQL_USER #key which store the user info
+          # value: HelloRahul123
+        - name: MYSQL_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: rahul_db_cred #name of secret 
+              key: MYSQL_PASSWORD #key which store the user info
+        resources: {}
+status: {}

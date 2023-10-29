@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  MONGO_INITDB_DATABASE: dGFzaw==
+  MONGO_INITDB_ROOT_PASSWORD: bW9uZ29hZG1pbiA=
+  MONGO_INITDB_ROOT_USERNAME: bW9uZ29hZG1pbiA=
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: rahul-db-cred

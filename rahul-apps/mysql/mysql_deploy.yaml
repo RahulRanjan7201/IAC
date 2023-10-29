@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: rahul-mysql
+  name: rahul-mysql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rahul-mysql
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: rahul-mysql
+    spec:
+      containers:
+      - image: mysql
+        name: mysql
+        ports:
+        - containerPort: 27017
+      envFrom:
+      - secretRef:
+          name: rahul-db-cred 
+        resources: {}
+status: {}

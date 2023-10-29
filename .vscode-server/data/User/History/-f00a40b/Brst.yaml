@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: rahul-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce  #the pv which is avilable 
+  storageClassName: manual #storage class what pv have 
+  resources:
+    requests:
+      storage: 1Gi

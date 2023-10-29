@@ -1,0 +1,17 @@
+{
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.startupEditor": "none",
+    "[toml]": {
+        "editor.defaultFormatter": "iceyer.toml-formatter"
+    },
+    "DockerRun.DisableAutoGenerateConfig": true,
+    "remote.SSH.remotePlatform": {
+        "52.2.116.225": "linux"
+    },
+    "redhat.telemetry.enabled": true
+}

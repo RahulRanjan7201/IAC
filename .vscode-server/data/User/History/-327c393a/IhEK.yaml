@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: rahul-mongo
+  name: rahul-mongo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rahul-mongo
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: rahul-mongo
+    spec:
+      containers:
+      - image: mongo
+        name: mongo
+        ports:
+        - containerPort: 27017
+        env: #to create/pass ENV variable info 
+        - name: MONGO_INITDB_ROOT_USERNAME
+          # value: rahul #this user i want to create in mongo DB
+          valueFrom:
+            secretKeyRef:
+              name: rahul-db-cred #name of secret 
+              key: my-user #key which store the user info
+        - name: MONGO_INITDB_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: rahul-db-cred #name of secret 
+              key: my-password #key which store the user info
+          # value: HelloRahul123
+        resources:
+          requests: 
+            memory: 50M
+            cpu: 20m #20 milicore
+          limits:
+            memory: 300M
+            cpu: 100m 
+status: {}

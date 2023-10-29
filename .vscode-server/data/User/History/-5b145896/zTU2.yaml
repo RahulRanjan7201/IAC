@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rahulpod1 #name of my pod
+spec: #all the elements which i want in my pod
+  containers: #here we write info about our containers
+  - name: rahulpod1
